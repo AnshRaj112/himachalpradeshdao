@@ -9,8 +9,9 @@ const navItems = [
   { label: "About", href: "/about" },
   { label: "Gallery", href: "/gallery" },
   { label: "Notifications", href: "/notifications", dropdown: [
-      { label: "Circulars", href: "/notifications/circulars" },
-      { label: "Events", href: "/notifications/events" },
+      { label: "State Govt.", href: "/notifications/circulars" },
+      { label: "Central Govt.", href: "/notifications/events" },
+      { label: "DAO", href: "/notification/DAO"},
     ] 
   },
   { label: "Books", href: "/books", dropdown: [

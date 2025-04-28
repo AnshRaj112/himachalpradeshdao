@@ -22,8 +22,9 @@ export default function Footer() {
         <div>
           <h3 className="font-bold text-lg mb-4">Notifications</h3>
           <ul className="space-y-2">
-            <li><Link href="/notifications/circulars" className="hover:text-gray-300">Circulars</Link></li>
-            <li><Link href="/notifications/events" className="hover:text-gray-300">Events</Link></li>
+            <li><Link href="/notifications/circulars" className="hover:text-gray-300">State Govt.</Link></li>
+            <li><Link href="/notifications/events" className="hover:text-gray-300">Central Govt.</Link></li>
+            <li><Link href="/notification/DAO" className="hover:text-gray-300">DAO</Link></li>
           </ul>
         </div>
 
