@@ -41,7 +41,7 @@ const navItems = [
     ] 
   },
   { label: "Contact Us", href: "/contact" },
-  { label: "Member Login", href: "/login" },
+  { label: "Member Login", href: "/auth/login" },
 ];
 
 export default function Header() {

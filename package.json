@@ -9,7 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@auth0/nextjs-auth0": "^4.5.1",
+    "@types/auth0": "^3.3.10",
     "animejs": "^4.0.2",
+    "dotenv": "^16.5.0",
     "framer-motion": "^12.9.2",
     "lucide-react": "^0.503.0",
     "next": "15.3.1",
